@@ -128,7 +128,7 @@ h2 {
 
 #description h1 {
   padding-bottom: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: hsl(271, 36%, 24%);
 }
 
@@ -311,6 +311,34 @@ h2 {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
+  .high-bg {
+    width: 500px;
+    height: 700px;
+    border-radius: 10% 0% 50% 50% / 0% 4% 40% 30%;
+    left: -80px;
+  }
+
+  .low-bg {
+    width: 500px;
+    height: 650px;
+    border-radius: 50% 50% 0% 0% / 30% 30% 0% 0%;
+    right: -185px;
+  }
+
+  #phone {
+    margin: 0;
+    left: 360px;
+    top: 140px;
+  }
+
+  #description p {
+    width: 440px;
+    line-height: 25px;
+  }
+
+  #description {
+    text-align: left;
+    left: 698px;
+    top: -225px;
   }
 }
